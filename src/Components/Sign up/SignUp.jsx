@@ -1,8 +1,11 @@
 import "./SignUp.css"
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-// import firebase from "../../firebase";
+import { db } from "../../firebase"
+import { collection, getDocs, addDoc } from "firebase/firestore"
+import { async } from "@firebase/util";
+
 
 const SignUp = () => {
     const [inputData, setInputData] = useState({
@@ -11,9 +14,23 @@ const SignUp = () => {
         email: ""
     });
 
-    // const ref = firebase.firestore().collection("merg-signup")
+    const register = async () => {
+        await addDoc(dataCollectionRef, { firstName: inputData.firstName, lastName: inputData.lastName, email: inputData.email })
+    }
 
-    // console.log(ref)
+
+    const [data, setData] = useState([])
+    const dataCollectionRef = collection(db, "merge-signup")
+
+    useEffect(() => {
+        const getData = async () => {
+            const datas = await getDocs(dataCollectionRef)
+            setData(datas.docs.map((doc) => ({ ...doc.data(), id: doc.id })))
+
+        }
+
+        getData()
+    }, [])
 
 
     const notify = () => toast('🦄 Wow so easy!', {
@@ -24,10 +41,7 @@ const SignUp = () => {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-    });;
-
-
-    const { firstName, lastName, email } = inputData
+    });
 
     const onChange = (e) => {
         setInputData({
@@ -44,6 +58,7 @@ const SignUp = () => {
         e.preventDefault();
         console.log(inputData)
         setInputData({ firstName: "", lastName: "", email: "" })
+        register();
         notify();
 
 
