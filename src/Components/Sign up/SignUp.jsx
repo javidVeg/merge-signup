@@ -2,6 +2,7 @@ import "./SignUp.css"
 import React, { useState } from 'react'
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+// import firebase from "../../firebase";
 
 const SignUp = () => {
     const [inputData, setInputData] = useState({
@@ -9,6 +10,11 @@ const SignUp = () => {
         lastName: "",
         email: ""
     });
+
+    // const ref = firebase.firestore().collection("merg-signup")
+
+    // console.log(ref)
+
 
     const notify = () => toast('🦄 Wow so easy!', {
         position: "top-right",
