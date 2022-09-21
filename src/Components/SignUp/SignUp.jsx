@@ -67,11 +67,11 @@ const SignUp = () => {
 
     return (
         <div>
-            <form >
+            <form className="form-container" >
                 <input name="firstName" placeholder="First Name" value={inputData.firstName} onChange={onChange} />
                 <input name="lastName" placeholder="Last Name" value={inputData.lastName} onChange={onChange} />
                 <input name="email" placeholder="Email" value={inputData.email} onChange={onChange} />
-                <button onClick={(e) => handleSubmit(e)}>Submit</button>
+                <button onClick={(e) => handleSubmit(e)}>Join Merge!</button>
                 <ToastContainer
                     position="top-right"
                     autoClose={5000}

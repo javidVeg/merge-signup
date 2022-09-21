@@ -11,7 +11,9 @@
 
 }
 .merge-logo img{
-    width: 75%;
+    width: 65%;
+    margin-right: -50px;
+    
     /* height: 88vh; */
 }
 
@@ -20,9 +22,13 @@
     height: 88vh;
     display: grid;
     place-items: center;
+    margin-left: -70px;
 
 }
 .register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 75%;
     height: 75%;
     background-color: rgba(234, 237, 237, 0.387);
@@ -31,4 +37,28 @@
     box-shadow: 0px 2px 15px 1px black ;
     backdrop-filter: blur(8px);
 
+}
+
+.pre-register{
+    text-align: center;
+   
+    font-size: 3em;
+    background-color: black;
+    background-image: linear-gradient(45deg, #fd7acb, #8100a9);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.register-container h2{
+    text-align: center; 
+}
+
+.register-text{
+    width: 90%;
+    margin-top: -30px;
+    margin-bottom: 20px;
 }
