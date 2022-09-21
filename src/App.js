@@ -1,11 +1,15 @@
 import './App.css';
-import SignUp from './Components/Sign up/SignUp';
+import Header from './Components/Header/Header';
+import LandingBody from './Components/LandingBody/LandingBody';
+import SignUp from './Components/SignUp/SignUp';
 
 
 function App() {
   return (
-    <div className="App">
-      <SignUp/>
+    <div>
+      {/* <SignUp/> */}
+      <Header/>
+      <LandingBody/>
       
     </div>
   );
