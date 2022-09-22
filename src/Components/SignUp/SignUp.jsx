@@ -33,7 +33,7 @@ const SignUp = () => {
     }, [])
 
 
-    const notify = () => toast('🦄 Wow so easy!', {
+    const notify = () => toast('Pre-registration successfully submitted!😎', {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -68,23 +68,10 @@ const SignUp = () => {
     return (
         <div>
             <form className="form-container" >
-                <input name="firstName" placeholder="First Name" value={inputData.firstName} onChange={onChange} />
-                <input name="lastName" placeholder="Last Name" value={inputData.lastName} onChange={onChange} />
-                <input name="email" placeholder="Email" value={inputData.email} onChange={onChange} />
-                <button onClick={(e) => handleSubmit(e)}>Join Merge!</button>
-                <ToastContainer
-                    position="top-right"
-                    autoClose={5000}
-                    hideProgressBar={false}
-                    newestOnTop={false}
-                    closeOnClick
-                    rtl={false}
-                    pauseOnFocusLoss={false}
-                    draggable
-                    pauseOnHover
-                />
-
-            </form>
+                {/* <input name="firstName" placeholder="First Name" value={inputData.firstName} onChange={onChange} required />
+                <input name="lastName" placeholder="Last Name" value={inputData.lastName} onChange={onChange} required /> */}
+                <input name="email" placeholder="Business Email" value={inputData.email} onChange={onChange} required />
+                <button onClick={(e) => handleSubmit(e)}>Join Merge!</button></form>
         </div>
     )
 }

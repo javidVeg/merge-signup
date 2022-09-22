@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .merge-logo{
@@ -12,7 +13,7 @@
 }
 .merge-logo img{
     width: 65%;
-    margin-right: -50px;
+    /* margin-right: -50px; */
     
     /* height: 88vh; */
 }
@@ -61,4 +62,23 @@
     width: 90%;
     margin-top: -30px;
     margin-bottom: 20px;
+}
+
+.text-container{
+  width: 50%;
+
+}
+
+.text-container h1{
+    font-size: 8vw;
+    text-align:start;
+}
+
+.mock-imac{
+    width: 50%;
+}
+
+.email-enter{
+    width: 50%;
+
 }

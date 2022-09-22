@@ -8,7 +8,9 @@ const Header = () => {
         <div className="left-side">
           <h1>MERGE</h1>
         </div>
-        <div className="right-side"></div>
+        <div className="right-side">
+          <button>Register</button>
+        </div>
       </header>
     </div>
   )
