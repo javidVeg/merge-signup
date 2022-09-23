@@ -1,6 +1,9 @@
-.carousel-container {
+:root{
     --size: clamp(10rem, 1rem + 40vmin, 30rem);
-    --gap: calc(var(--size) / 14);
+    --gap: 1rem;
+}
+.carousel-container {
+
     position: relative;
     display: flex;
     overflow: hidden;
@@ -8,8 +11,9 @@
     gap: var(--gap);
     
 }
-.carousel-container .logos1{
+.carousel-container .logo-box{
     flex-shrink: 0;
+    align-items: center;
     display: flex;
     justify-content: space-around;
     gap: var(--gap);
@@ -37,15 +41,15 @@
     height: 150px;
     display: grid;
     place-content: center;
-    /* margin-right: 90px; */
     
 }
 
 @keyframes scroll {
-    from {
+    0% {
       transform: translateX(0);
     }
-    to {
-      transform: translateX(calc(-100% - 1rem));
+  
+    100% {
+      transform: translateX(calc(-100% - var(--gap)));
     }
   }

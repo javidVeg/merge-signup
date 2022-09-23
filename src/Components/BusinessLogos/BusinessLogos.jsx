@@ -14,7 +14,7 @@ const BusinessLogos = () => {
     return (
         <div className='carousel-container'>
             
-            <div className='logos1'>
+            <div className='logo-box'>
             <div className="logos"><img src={bus1} alt="business-1" /></div>
             <div className="logos"><img src={bus2} alt="business-2" /></div>
             <div className="logos"><img src={bus3} alt="business-3" /></div>
@@ -25,7 +25,7 @@ const BusinessLogos = () => {
             <div className="logos"><img src={bus8} alt="business-8" /></div>
             {/* <div className="logos"><img src={bus9} alt="business-9" /></div> */}
             </div>
-            <div className='logos1' aria-hidden="true">
+            <div className='logo-box' aria-hidden="true">
             <div className="logos"><img src={bus1} alt="business-1" /></div>
             <div className="logos"><img src={bus2} alt="business-2" /></div>
             <div className="logos"><img src={bus3} alt="business-3" /></div>
