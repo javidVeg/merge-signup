@@ -19,12 +19,12 @@ const PitchAnimation = () => {
             setCount(count + 1)                         //@ SETS COUNT TO 1 AND THEN THE IF STATEMENT GETS READ WHICH SETS COUNT BACK TO 0
 
             // @ANIMATES ~pitch2Array~ //               //@ THIS FUNCTION IS NOT A LOOP
-            if (count == 1) {
+            if (count === 1) {
                 setCount(0)
                 setItems(pitch1Array)
             }
         },
-        play ? 6000 : null
+        play ? 8000 : null
 
     )
 
