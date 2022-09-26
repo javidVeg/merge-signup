@@ -1,6 +1,6 @@
 :root{
     --size: clamp(10rem, 1rem + 40vmin, 30rem);
-    --gap: 1rem;
+    --gap: .3rem;
 }
 .carousel-container {
 
@@ -31,10 +31,6 @@
    
 
 } */
-
-.carousel-container img {
-    width: 120px;
-}
 
 .carousel-container .logos {
     width: 150px;

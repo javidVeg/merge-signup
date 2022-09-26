@@ -1,40 +1,41 @@
 import React from 'react'
 import "./BusinessLogos.css"
-import bus1 from "../../Images/bus-1.webp"
-import bus2 from "../../Images/bus-2.png"
-import bus3 from "../../Images/bus-3.png"
-import bus4 from "../../Images/bus-4.png"
-import bus5 from "../../Images/bus-5.png"
-import bus6 from "../../Images/bus-6.png"
-import bus7 from "../../Images/bus-7.png"
-import bus8 from "../../Images/bus-8.png"
-import bus9 from "../../Images/bus-9.png"
+import bank1 from "../../Images/bank1.png"
+import bank2 from "../../Images/bank2.png"
+import bank3 from "../../Images/bank3.png"
+import bank4 from "../../Images/bank4.png"
+import bank5 from "../../Images/bank5.png"
+import bank6 from "../../Images/bank6.png"
+import bank7 from "../../Images/bank7.png"
+import bank8 from "../../Images/bank8.png"
+import bank9 from "../../Images/citi.png"
+
 
 const BusinessLogos = () => {
     return (
         <div className='carousel-container'>
-            
+
             <div className='logo-box'>
-            <div className="logos"><img src={bus1} alt="business-1" /></div>
-            <div className="logos"><img src={bus2} alt="business-2" /></div>
-            <div className="logos"><img src={bus3} alt="business-3" /></div>
-            <div className="logos"><img src={bus4} alt="business-4" width="150px" /></div>
-            <div className="logos"><img src={bus5} alt="business-5" /></div>
-            <div className="logos"><img src={bus6} alt="business-6" /></div>
-            <div className="logos"><img src={bus7} alt="business-7" /></div>
-            <div className="logos"><img src={bus8} alt="business-8" /></div>
-            {/* <div className="logos"><img src={bus9} alt="business-9" /></div> */}
+                <div className="logos"><img src={bank1} alt="hsbc" width="170px" /></div>
+                <div className="logos"><img src={bank2} alt="bofa" width="200px" /></div>
+                <div className="logos"><img src={bank3} alt="pnc" width="120px" /></div>
+                <div className="logos"><img src={bank4} alt="wellsf" width="170px" /></div>
+                <div className="logos"><img src={bank5} alt="chase" width="150px" /></div>
+                <div className="logos"><img src={bank6} alt="usaa" width="80px" /></div>
+                <div className="logos"><img src={bank7} alt="discover" width="120px" /></div>
+                <div className="logos"><img src={bank8} alt="amex" width="120px" /></div>
+                <div className="logos"><img src={bank9} alt="citi" width="80px" /></div>
             </div>
             <div className='logo-box' aria-hidden="true">
-            <div className="logos"><img src={bus1} alt="business-1" /></div>
-            <div className="logos"><img src={bus2} alt="business-2" /></div>
-            <div className="logos"><img src={bus3} alt="business-3" /></div>
-            <div className="logos"><img src={bus4} alt="business-4" width="150px" /></div>
-            <div className="logos"><img src={bus5} alt="business-5" /></div>
-            <div className="logos"><img src={bus6} alt="business-6" /></div>
-            <div className="logos"><img src={bus7} alt="business-7" /></div>
-            <div className="logos"><img src={bus8} alt="business-8" /></div>
-            {/* <div className="logos"><img src={bus9} alt="business-9" /></div> */}
+                <div className="logos"><img src={bank1} alt="hsbc" width="170px" /></div>
+                <div className="logos"><img src={bank2} alt="bofa" width="200px" /></div>
+                <div className="logos"><img src={bank3} alt="pnc" width="120px" /></div>
+                <div className="logos"><img src={bank4} alt="wellsf" width="170px" /></div>
+                <div className="logos"><img src={bank5} alt="chase" width="150px" /></div>
+                <div className="logos"><img src={bank6} alt="usaa" width="80px" /></div>
+                <div className="logos"><img src={bank7} alt="discover" width="120px" /></div>
+                <div className="logos"><img src={bank8} alt="amex" width="120px" /></div>
+                <div className="logos"><img src={bank9} alt="citi" width="80px" /></div>
             </div>
         </div>
     )
