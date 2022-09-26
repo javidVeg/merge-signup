@@ -14,7 +14,7 @@ input{
     border-bottom: 1px solid rgb(81, 24, 205);
     background-color: transparent;
 }
-button{
+.button-1{
     background-color: rgb(81, 24, 205);
     color: white;
     font-size: large;

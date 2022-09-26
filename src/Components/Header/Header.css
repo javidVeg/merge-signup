@@ -1,3 +1,4 @@
+/*HEADER VARIABLES*/
 header {
     height: 100px;
     width: 100%;
@@ -5,46 +6,82 @@ header {
     flex-direction: row;
     position: absolute;
 }
+/*^^HEADER VARIABLES^^*/
 
-header .left-side {
+/*LEFT SIDE OF HEADER*/
+.left-side-logo {
     height: 100px;
-    width: 50%;
-}
-
-.left-side h1{
-    height: 100px;
-    width: 50%;
-    font-size: 3rem;
+    width: 33.3%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    color: rgb(81, 24, 205);
-    margin: 0px;
-    margin-left: 45px;      
 }
 
-header .right-side {
+.left-side-logo h3{
+    font-size: 3vw;
+    display: grid;
+    place-content: center;
+    margin-left: 10px; 
+}
+.left-side-logo img{
+    height: 80px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 45px;   
+}
+/*^^LEFT SIDE OF HEADER^^*/
+
+/*MIDDLE OF HEADER*/
+.middle {
     height: 100px;
-    width: 50%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.middle a {
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 15px;  
+}
+/*^^MIDDLE OF HEADER^^*/
+
+/*RIGHT SIDE OF HEADER*/
+.right-side {
+    height: 100px;
+    width: 33.3%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 button{
-    background-color: rgb(81, 24, 205);
     color: white;
-    font-size: large;
-    border-radius: 10px;
+    font-size: small;
+    border-radius: 12px;
     border: none;
-    margin: 10px;
-    margin-right: 45px;
-    width: 125px;
-    height: 40px;
+    font-weight: 500;
+    margin-right: 25px;
+    width: 100px;
+    height: 35px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 button:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(207, 207, 207);
 }
+
+.sign-up{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.register{
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+/*^^RIGHT SIDE OF HEADER^^*/

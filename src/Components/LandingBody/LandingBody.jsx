@@ -5,6 +5,7 @@ import mergeImac from "../../Images/merge-imac.png"
 import "./LandingBody.css"
 import BusinessLogos from '../BusinessLogos/BusinessLogos'
 import Pitch from '../Pitch/Pitch'
+import smallB1 from "../../Images/small-business-1.jpeg"
 
 const LandingBody = () => {
   return (
@@ -30,13 +31,13 @@ const LandingBody = () => {
         <p className="provides">
           <span>✅</span>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quas.
         </p>
+        <div className="email-enter"><SignUp /></div>
       </div>
-      <div className="mock-imac">
-        <img src={mergeImac} alt="merge-imac" width={700} />
+      <div className="hero-img">
+        <img src={smallB1} alt="hero-img" />
       </div>
-      <div className="email-enter"><SignUp /></div>
       <div className="logo-carousel"><BusinessLogos /></div>
-      </div>
+    </div>
   )
 }
 

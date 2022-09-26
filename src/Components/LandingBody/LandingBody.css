@@ -1,4 +1,4 @@
-.landing-body{
+.landing-body {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -69,48 +69,60 @@
 } */
 
 /*TEXT*/
-.landing-body .text-container{
-  width: 50%;
-  margin: 50px;
-   margin-top: 100px;
-
-}
-
-.text-container h1{
-    font-size: 7vw;
-    text-align: start;
-    margin: 0;
-    margin-bottom: 40px;
-}
-
-.text-container .provide{
-    display: flex;
-    flex-direction: column;
-}
-
-.provides{ 
-    color: rgb(76, 76, 76);
-    font-size: large;
-    font-weight: 500;
-
-}
-.provides span{ 
-    margin-right: 10px;
-}
-/*^^TEXT^^*/
-
-.landing-body .mock-imac{
-    max-width: 50%;
-    margin-left: -180px;
+.text-container {
+    width: 50%;
     margin-top: 50px;
 
 }
 
-.email-enter{
-    margin-top: -80px;
-    width: 50%;
+.text-container h1 {
+    font-size: 6vw;
+    text-align: start;
+    margin: 50px;
+    margin-bottom: 40px;
 }
 
-.logo-carousel{
-    margin-top: -50px;
+.provides {
+    color: rgb(76, 76, 76);
+    font-size: medium;
+    font-weight: 500;
+    margin-left: 50px;
+
+}
+
+.provides span {
+    margin-right: 10px;
+}
+
+.email-enter {
+    margin-top: 25px;
+    width: 100%;
+}
+
+/*^^TEXT^^*/
+
+/*IMAGE*/
+.landing-body .hero-img {
+    width: 50%;
+    height: 60vh;
+    display: grid;
+    place-content: center;
+
+
+}
+
+.hero-img img {
+    width: 600px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+/*^^IMAGE^^*/
+
+
+
+.logo-carousel {
+    margin-top: -300px;
+    
 }
