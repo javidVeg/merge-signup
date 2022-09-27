@@ -12,7 +12,7 @@ function App() {
       {/* <SignUp/> */}
       <Header/>
       <LandingBody/>
-      <Pitch/>
+      {/* <Pitch/> */}
       <ToastContainer
                     position="top-right"
                     autoClose={5000}

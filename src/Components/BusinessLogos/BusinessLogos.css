@@ -1,7 +1,33 @@
-:root{
+:root {
     --size: clamp(10rem, 1rem + 40vmin, 30rem);
     --gap: .3rem;
 }
+
+
+.top-of-carousel {
+    width: 100vw;
+    font-size: 2vw;
+    font-weight: 700;
+    display: grid;
+    place-content: center;
+
+}
+
+.top-of-carousel h4 {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+hr.solid {
+    border-top: 8px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    width: 50%;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+   
+
+}
+
 .carousel-container {
 
     position: relative;
@@ -10,8 +36,10 @@
     user-select: none;
     gap: var(--gap);
     
+
 }
-.carousel-container .logo-box{
+
+.carousel-container .logo-box {
     flex-shrink: 0;
     align-items: center;
     display: flex;
@@ -19,33 +47,22 @@
     gap: var(--gap);
     min-width: 100%;
     animation: scroll 40s linear infinite;
-   
-     
 }
-/* .carousel-container .logos2{
-    display: flex;
-    flex-direction: row;
-    width: 100%; 
-    animation: marquee 20s linear infinite;
-    animation-delay: 20s;
-   
-
-} */
 
 .carousel-container .logos {
     width: 150px;
     height: 150px;
     display: grid;
     place-content: center;
-    
+
 }
 
 @keyframes scroll {
     0% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
-  
+
     100% {
-      transform: translateX(calc(-100% - var(--gap)));
+        transform: translateX(calc(-100% - var(--gap)));
     }
-  }
+}
