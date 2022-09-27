@@ -41,8 +41,13 @@ const LandingBody = () => {
         
       </section>
       <section className="body-1">
-        <div className="logo-carousel"><BusinessLogos /></div>
+        {/* <div className="logo-carousel"><BusinessLogos /></div> */}
         <div className="path"><img src={path} alt="path" /></div>
+        <div className="emoji-1"><h2>🧑‍💻</h2></div>
+        <div className="emoji-2"><h2>🏦</h2></div>
+        <div className="emoji-3"><h2>💳</h2></div>
+        <div className="emoji-4"><h2>💸</h2></div>
+        
         
       </section>
     </div>
