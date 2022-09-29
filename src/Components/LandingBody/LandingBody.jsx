@@ -46,21 +46,23 @@ const LandingBody = () => {
         <div className="emoji-1">
           <h2>🧑‍💻</h2>
           <div className="blob"></div>
+          <div className="info-card"></div>
         </div>
         <div className="emoji-2">
           <h2>🏦</h2>
           <div className="blob"></div>
+          <div className="info-card"></div>
         </div>
         <div className="emoji-3">
           <h2>💳</h2>
           <div className="blob"></div>
+          <div className="info-card"></div>
         </div>
         <div className="emoji-4">
           <h2>💸</h2>
           <div className="blob"></div>
+          <div className="info-card"></div>
         </div>
-
-
       </section>
     </div>
   )
