@@ -6,7 +6,7 @@ import "./LandingBody.css"
 import BusinessLogos from '../BusinessLogos/BusinessLogos'
 import Pitch from '../Pitch/Pitch'
 import smallB1 from "../../Images/small-business-1.jpeg"
-import path from "../../Images/path-2.png"
+import UserJourney from '../UserJourney/UserJourney'
 
 const LandingBody = () => {
   return (
@@ -38,32 +38,13 @@ const LandingBody = () => {
           </p>
           <div className="email-enter"><SignUp /></div>
         </div>
+      </section>
+      <div className="logo-carousel">
+        <BusinessLogos /></div>
+      <div className="user-journey">
+        <UserJourney/>
+      </div>
 
-      </section>
-      <section className="body-1">
-        {/* <div className="logo-carousel"><BusinessLogos /></div> */}
-        <div className="path"><img src={path} alt="path" /></div>
-        <div className="emoji-1">
-          <h2>🧑‍💻</h2>
-          <div className="blob"></div>
-          <div className="info-card"></div>
-        </div>
-        <div className="emoji-2">
-          <h2>🏦</h2>
-          <div className="blob"></div>
-          <div className="info-card"></div>
-        </div>
-        <div className="emoji-3">
-          <h2>💳</h2>
-          <div className="blob"></div>
-          <div className="info-card"></div>
-        </div>
-        <div className="emoji-4">
-          <h2>💸</h2>
-          <div className="blob"></div>
-          <div className="info-card"></div>
-        </div>
-      </section>
     </div>
   )
 }

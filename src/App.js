@@ -4,6 +4,7 @@ import LandingBody from './Components/LandingBody/LandingBody';
 import SignUp from './Components/SignUp/SignUp';
 import { ToastContainer } from "react-toastify"
 import Pitch from './Components/Pitch/Pitch';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <LandingBody/>
       {/* <Pitch/> */}
+      <Footer />
       <ToastContainer
                     position="top-right"
                     autoClose={5000}
