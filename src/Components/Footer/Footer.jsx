@@ -41,7 +41,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="foot-section-2">
-                <h4>Products</h4>
+                    <h4>Products</h4>
                     <ul>
                         <li>About Us</li>
                         <li>Contact Us</li>
@@ -51,8 +51,15 @@ const Footer = () => {
                         <li>Licenses</li>
                     </ul>
                 </div>
-              
             </div>
+            
+            {/* <hr className='solid' /> */}
+                <div className="lower-container">
+                    <p>Terms of Service</p>
+                    <p>Legal</p>
+                    <p>Privacy Statement</p>
+                    <p> Merge, inc. &reg; {new Date().getFullYear()}</p>
+                </div>
         </footer>
     )
 }
