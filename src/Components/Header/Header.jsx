@@ -22,7 +22,8 @@ const Header = () => {
         </div>
         <div className="right-side">
           <button className="register" onClick={() => navigate('/register')}>REGISTER</button>
-          <button className="sign-up">SIGN IN</button>
+          <button className="sign-up" onClick={() => navigate('/home')}>HOME</button>
+          {/* <button className="sign-up">SIGN IN</button> */}
         </div>
       </header>
     </div>

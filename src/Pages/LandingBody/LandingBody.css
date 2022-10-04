@@ -85,6 +85,15 @@
  
   
 }
+.form-container-2{
+    width: 100%;
+    height: px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @keyframes appear {
     0% {
