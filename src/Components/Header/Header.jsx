@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Header.css"
+import { Link, useNavigate } from 'react-router-dom';
 import mergeLogo from "../../Images/mergeLogo.png"
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <header>
@@ -11,13 +13,15 @@ const Header = () => {
           <h3>MERGE</h3>
         </div>
         <div className="middle">
-          <a href="#solutions">SOLUTIONS</a>
-          <a href="#products">PRODUCTS</a>
-          <a href="#pricing">PRICING</a>
-          <a href="#resources">RESOURCES</a>
+          {/* ~a~ TAG IN CSS WORKS ON ~Link~ */}
+          <Link to="/solutions">SOLUTIONS</Link>
+          <Link to="/demo">DEMO</Link>
+          <Link to="/products">PRODUCTS</Link>
+          <Link to="/pricing">PRICING</Link>
+          <Link to="/resources">RESOURCES</Link>
         </div>
         <div className="right-side">
-          <button className="register">REGISTER</button>
+          <button className="register" onClick={() => navigate('/register')}>REGISTER</button>
           <button className="sign-up">SIGN IN</button>
         </div>
       </header>

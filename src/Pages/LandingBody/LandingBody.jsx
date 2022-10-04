@@ -1,30 +1,17 @@
 import React from 'react'
 import mergeLogo from "../../Images/mergeLogo.png"
-import SignUp from '../SignUp/SignUp'
+import SignUp from '../../Components/SignUp/SignUp'
 import mergeImac from "../../Images/merge-imac.png"
 import "./LandingBody.css"
-import BusinessLogos from '../BusinessLogos/BusinessLogos'
-import Pitch from '../Pitch/Pitch'
+import BusinessLogos from '../../Components/BusinessLogos/BusinessLogos'
+import Pitch from '../../Components/Pitch/Pitch'
 import smallB1 from "../../Images/small-business-1.jpeg"
-import UserJourney from '../UserJourney/UserJourney'
+import UserJourney from '../../Components/UserJourney/UserJourney'
 
 const LandingBody = () => {
   return (
     <div className='landing-body'>
-      {/* <div className="merge-logo">
-        <img src={mergeLogo} alt="mergeLogo" />
-      </div>
-      <div className="register">
-        <div className="register-container">
-          <h1 className='pre-register'>Pre Register.</h1>
-          <div className="register-text"><h2>Be amongst the first to get a refund on your expenses!</h2></div>
-
-          </div>
-        </div> */}
       <section className="hero">
-        <div className="hero-img">
-          <img src={smallB1} alt="hero-img" />
-        </div>
         <div className="text-container">
           <h1>Get a refund on your expenses</h1>
           <p className="provides">
@@ -37,6 +24,9 @@ const LandingBody = () => {
             <span>👌</span>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quas.
           </p>
           <div className="email-enter"><SignUp /></div>
+        </div>
+        <div className="hero-img">
+          <img src={smallB1} alt="hero-img" />
         </div>
       </section>
       <div className="logo-carousel">

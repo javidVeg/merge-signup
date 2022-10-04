@@ -2,19 +2,19 @@
     width: 100%;
     height: px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 input{
     height: 40px;
-    width: 350px;
+    width: 250px;
     margin-bottom: 10px;
     border:none;
     border-bottom: 1px solid rgb(81, 24, 205);
     background-color: transparent;
 }
-.button-1{
+button{
     background-color: rgb(81, 24, 205);
     color: white;
     font-size: large;
@@ -22,8 +22,4 @@ input{
     margin: 10px;
     width: 125px;
     height: 40px;
-}
-
-input:focus, textarea {
-    outline: 2px black;
 }

@@ -35,6 +35,7 @@ hr.solid {
     overflow: hidden;
     user-select: none;
     gap: var(--gap);
+  
     
 
 }
