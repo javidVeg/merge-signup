@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/merge-signup/static/css/main.fa076bf4.css",
-    "main.js": "/merge-signup/static/js/main.f5a6fb14.js",
+    "main.js": "/merge-signup/static/js/main.c153b795.js",
     "static/media/merge-imac.png": "/merge-signup/static/media/merge-imac.b22dde7c509e30ff5746.png",
     "static/media/path-2.png": "/merge-signup/static/media/path-2.ae0594bb64440870a55f.png",
     "static/media/small-business-1.jpeg": "/merge-signup/static/media/small-business-1.56cc4692369a66f9ca78.jpeg",
@@ -19,10 +19,10 @@
     "static/media/bank5.png": "/merge-signup/static/media/bank5.9963e7ec747544cbd1b4.png",
     "index.html": "/merge-signup/index.html",
     "main.fa076bf4.css.map": "/merge-signup/static/css/main.fa076bf4.css.map",
-    "main.f5a6fb14.js.map": "/merge-signup/static/js/main.f5a6fb14.js.map"
+    "main.c153b795.js.map": "/merge-signup/static/js/main.c153b795.js.map"
   },
   "entrypoints": [
     "static/css/main.fa076bf4.css",
-    "static/js/main.f5a6fb14.js"
+    "static/js/main.c153b795.js"
   ]
 }
