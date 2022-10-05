@@ -1,15 +1,13 @@
-.landing-body {
-   
-}
+.landing-body {}
+
 .hero {
-    width: 100vw;
-    height: 90vh;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     overflow: hidden;
     position: relative;
-  
 
 }
 
@@ -17,12 +15,13 @@
 .text-container {
     width: 50%;
    
+    margin-top: 5%;
 
 
 }
 
 .text-container h1 {
-    font-size: 7vw;
+    font-size: 5em;
     text-align: start;
     margin: 50px;
     margin-top: 10px;
@@ -32,7 +31,7 @@
 
 .provides {
     color: rgb(76, 76, 76);
-    font-size: medium;
+    font-size: 1em;
     font-weight: 500;
     margin-left: 50px;
     animation-name: appear;
@@ -56,6 +55,7 @@
     animation-direction: alternate;
     animation-delay: .1s;
 
+
 }
 
 /*^^TEXT^^*/
@@ -63,15 +63,19 @@
 /*IMAGE*/
 .hero-img {
     width: 50%;
-    height: 80vh;
-    display: grid;
-    place-content: center;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .hero-img img {
-    width: 800px;
+    width: 100%;
+
+
     margin-left: 8%;
     border-radius: 12px;
     box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.5);
@@ -82,12 +86,12 @@
 
 
 .logo-carousel {
- 
-  
+    margin-top: 100px;
 }
-.form-container-2{
+
+.form-container-2 {
     width: 100%;
-    height: px;
+    height: 10%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -107,3 +111,47 @@
         opacity: 1;
     }
 }
+
+/* __vv__MEDIA QUERIES__vv__*/
+
+/*_____MOBILE DEVICE_____*/
+@media screen and (width < 767px) {
+    .text-container {
+        width: 100%;
+
+
+    }
+
+    .text-container h1 {
+        font-size: 5em;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .hero-img {
+        width: 100%;
+
+
+
+    }
+
+    .hero-img img {
+        width: 80%;
+        margin-bottom: 0px;
+        margin-left: 0px;
+
+    }
+
+
+
+
+}
+
+/*_____TABLET DEVICE_____*/
+@media screen and (width > 767px) and (width < 1023px) {}
+
+/*_____DESKTOP DEVICE_____*/
+@media screen and (width > 1900px) {}
+
+/* __^^__MEDIA QUERIES__^^__*/

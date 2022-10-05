@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/merge-signup/static/css/main.73e1da62.css",
-    "main.js": "/merge-signup/static/js/main.56f9ec95.js",
+    "main.css": "/merge-signup/static/css/main.fa076bf4.css",
+    "main.js": "/merge-signup/static/js/main.c153b795.js",
     "static/media/merge-imac.png": "/merge-signup/static/media/merge-imac.b22dde7c509e30ff5746.png",
     "static/media/path-2.png": "/merge-signup/static/media/path-2.ae0594bb64440870a55f.png",
     "static/media/small-business-1.jpeg": "/merge-signup/static/media/small-business-1.56cc4692369a66f9ca78.jpeg",
     "static/media/bank4.png": "/merge-signup/static/media/bank4.929c36b9e89f00b2e410.png",
     "static/media/merge_full_logo.png": "/merge-signup/static/media/merge_full_logo.a7a6f88717bb53829972.png",
+    "static/media/error-icon.png": "/merge-signup/static/media/error-icon.1bb17713932dcbf92b7a.png",
     "static/media/bank8.png": "/merge-signup/static/media/bank8.370345419786cc0f348c.png",
     "static/media/bank6.png": "/merge-signup/static/media/bank6.f463b094aa239d52c8e2.png",
     "static/media/mergeLogo.png": "/merge-signup/static/media/mergeLogo.1f08bd58e1abb3ff15c3.png",
@@ -17,11 +18,11 @@
     "static/media/bank1.png": "/merge-signup/static/media/bank1.29641cb720e2e946b31a.png",
     "static/media/bank5.png": "/merge-signup/static/media/bank5.9963e7ec747544cbd1b4.png",
     "index.html": "/merge-signup/index.html",
-    "main.73e1da62.css.map": "/merge-signup/static/css/main.73e1da62.css.map",
-    "main.56f9ec95.js.map": "/merge-signup/static/js/main.56f9ec95.js.map"
+    "main.fa076bf4.css.map": "/merge-signup/static/css/main.fa076bf4.css.map",
+    "main.c153b795.js.map": "/merge-signup/static/js/main.c153b795.js.map"
   },
   "entrypoints": [
-    "static/css/main.73e1da62.css",
-    "static/js/main.56f9ec95.js"
+    "static/css/main.fa076bf4.css",
+    "static/js/main.c153b795.js"
   ]
 }

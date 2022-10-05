@@ -19,6 +19,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Navigate to ="/home"/>}/>
+        <Route path='/merge-signup/' element={<Navigate to ="/home"/>}/>
         <Route path='/home' element={<LandingBody />}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='*' element={<ErrorPage/>}/>
