@@ -53,7 +53,7 @@ const Footer = () => {
                 </div>
             </div>
             
-            {/* <hr className='solid' /> */}
+            
                 <div className="lower-container">
                     <p>Terms of Service</p>
                     <p>Legal</p>

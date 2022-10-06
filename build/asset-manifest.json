@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/merge-signup/static/css/main.fa076bf4.css",
+    "main.css": "/merge-signup/static/css/main.38dc36cd.css",
     "main.js": "/merge-signup/static/js/main.c153b795.js",
     "static/media/merge-imac.png": "/merge-signup/static/media/merge-imac.b22dde7c509e30ff5746.png",
     "static/media/path-2.png": "/merge-signup/static/media/path-2.ae0594bb64440870a55f.png",
@@ -18,11 +18,11 @@
     "static/media/bank1.png": "/merge-signup/static/media/bank1.29641cb720e2e946b31a.png",
     "static/media/bank5.png": "/merge-signup/static/media/bank5.9963e7ec747544cbd1b4.png",
     "index.html": "/merge-signup/index.html",
-    "main.fa076bf4.css.map": "/merge-signup/static/css/main.fa076bf4.css.map",
+    "main.38dc36cd.css.map": "/merge-signup/static/css/main.38dc36cd.css.map",
     "main.c153b795.js.map": "/merge-signup/static/js/main.c153b795.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa076bf4.css",
+    "static/css/main.38dc36cd.css",
     "static/js/main.c153b795.js"
   ]
 }
