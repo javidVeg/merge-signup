@@ -4,7 +4,10 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     position: relative;
+    /*vvv PREVENTS OTHER ELEMENTS FROM BEING ON TOP vvv*/
+    z-index: 1;
 }
 /*^^HEADER VARIABLES^^*/
 
@@ -84,4 +87,62 @@ button:hover{
     color: black;
 
 }
+/*__vv__MOBILE MENU__vv__*/
+.hamburger-menu{
+    margin-right: 45px;
+    display: none;    
+}
+
+
+
 /*^^RIGHT SIDE OF HEADER^^*/
+
+/* __vv__MEDIA QUERIES__vv__*/
+
+/*_____MOBILE DEVICE_____*/
+@media screen and (width < 767px) {
+    .middle{
+        display: none;
+    }
+   .register{
+    display: none;
+   }
+   .sign-up{
+    display: none;
+   }
+   .hamburger-menu{
+    display: flex;
+   }
+   /* WHEN ~HIDDEN~ THAT ID TAKES OVER STYLING FOR THAT CLASS */
+   #hidden {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    height: auto;
+    width: 100%;
+    background-color: rgb(228, 228, 229);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 3px  rgba(0, 0, 0, 0.463);
+    /* opacity: 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  /* ~a~ IS THE ~LINK~ IN THE MIDDLE CLASS*/
+   #hidden a {
+    margin: 3px;
+    font-size: 18px;
+    color: black;
+  }
+ 
+
+}
+
+/*_____TABLET DEVICE_____*/
+@media screen and (width > 767px) and (width < 1023px) {}
+
+/*_____DESKTOP DEVICE_____*/
+@media screen and (width > 1900px) {}
+
+/* __^^__MEDIA QUERIES__^^__*/
