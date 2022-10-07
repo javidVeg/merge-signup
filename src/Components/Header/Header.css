@@ -5,9 +5,9 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
+    position: sticky;
     /*vvv PREVENTS OTHER ELEMENTS FROM BEING ON TOP vvv*/
-    z-index: 1;
+    z-index: 10;
 }
 /*^^HEADER VARIABLES^^*/
 
@@ -17,6 +17,7 @@ header {
     width: 33.3%;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .left-side-logo h3{
@@ -41,6 +42,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+ 
 }
 .middle a {
     font-size: 1.2vw;
@@ -114,26 +116,34 @@ button:hover{
     display: flex;
    }
    /* WHEN ~HIDDEN~ THAT ID TAKES OVER STYLING FOR THAT CLASS */
-   #hidden {
+    #hidden {
     position: absolute;
     left: 0px;
     top: 100px;
     height: auto;
     width: 100%;
-    background-color: rgb(228, 228, 229);
+    overflow: hidden;
+    background-color: rgb(248, 248, 248);
     border-radius: 0 0 8px 8px;
     box-shadow: 0 3px  rgba(0, 0, 0, 0.463);
-    /* opacity: 80%; */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: flex-start;
+    animation-name: menu-animation;
+    animation-duration: 400ms;
+    transition-timing-function: ease;
+    animation-iteration-count: 1;
   }
+
+  .left-side-logo h3{
+    font-size: 2em;
+}
   /* ~a~ IS THE ~LINK~ IN THE MIDDLE CLASS*/
    #hidden a {
     margin: 3px;
     font-size: 18px;
     color: black;
+    
   }
  
 
@@ -146,3 +156,16 @@ button:hover{
 @media screen and (width > 1900px) {}
 
 /* __^^__MEDIA QUERIES__^^__*/
+
+@keyframes menu-animation {
+    0% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
