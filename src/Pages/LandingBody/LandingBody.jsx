@@ -85,11 +85,9 @@ const LandingBody = () => {
             <span>👌</span>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quas.
           </p>
           <div className="email-enter">
-            <div>
               <form className="form-container-2" >
                 <input name="email" placeholder="Business Email" value={inputData.email} onChange={onChange} required />
                 <button className="button-1" onClick={(e) => handleSubmit(e)}>Join Merge!</button></form>
-            </div>
           </div>
         </div>
         <div className="hero-img">

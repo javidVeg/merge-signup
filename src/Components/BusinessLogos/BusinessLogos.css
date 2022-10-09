@@ -72,7 +72,14 @@ hr.solid {
 
 /*_____MOBILE DEVICE_____*/
 @media screen and (width < 767px) {
- 
+    .top-of-carousel {
+        width: 100vw;
+        font-size: 5vw;
+        font-weight: 600;
+        display: grid;
+        place-content: center;
+    
+    }
 }
 /*_____TABLET DEVICE_____*/
 @media screen and (width > 767px) and (width < 1023px) {}
