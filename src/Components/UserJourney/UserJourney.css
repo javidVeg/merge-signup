@@ -1,7 +1,7 @@
 /*////////////////////////vv USER JOURNEY vv////////////////////////*/
 .body-1 {
     width: 100vw;
-    height: auto;
+    height: 250vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -9,12 +9,15 @@
     flex-wrap: wrap;
     overflow: hidden;
     position: relative;
-    margin-bottom: 100px;
+  
 }
-.body-1 h2{
+
+.body-1 h2 {
     position: absolute;
     z-index: 11;
 }
+
+
 
 .icon-inner {
     position: relative;
@@ -41,7 +44,7 @@
     width: auto;
 }
 
-.info-text{
+.info-text {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -50,16 +53,19 @@
     text-align: left;
     color: #000000;
 }
-.info-text h3{
+
+.info-text h3 {
     font-weight: 800;
     font-size: x-large;
 }
-.info-text p{
+
+.info-text p {
     font-weight: 400;
     margin-top: -10px;
     line-height: 22px;
-   
+
 }
+
 .blob {
     position: absolute;
     z-index: 9;
@@ -85,6 +91,7 @@
     margin-top: -10px;
     margin-left: -830px;
 }
+
 .info-card {
     position: absolute;
     display: flex;
@@ -169,7 +176,7 @@
 .emoji-3 .info-card {
     margin-top: 150px;
     margin-left: 350px;
-   
+
 }
 
 
@@ -211,6 +218,7 @@
     font-size: 50px;
     margin: 0;
 }
+
 /*^^ emoji-4 ^^*/
 
 @keyframes blob-animation {
@@ -237,13 +245,19 @@
 
 /*_____MOBILE DEVICE_____*/
 @media screen and (width < 767px) {
-    .path{
+    .body-1 {
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .path {
         display: none;
     }
-    .body-1 h2{
+
+    .body-1 h2 {
         position: relative;
         z-index: 11;
     }
+
     .emoji-1 {
         position: relative;
         display: flex;
@@ -254,6 +268,7 @@
         margin-top: 0;
         margin-left: 0;
     }
+
     .emoji-2 {
         position: relative;
         display: flex;
@@ -264,6 +279,7 @@
         margin-top: 0px;
         margin-right: 0px;
     }
+
     .emoji-3 {
         position: relative;
         display: flex;
@@ -274,6 +290,7 @@
         margin-top: 0;
         margin-left: 0;
     }
+
     .emoji-4 {
         position: relative;
         display: flex;
@@ -284,8 +301,8 @@
         margin-top: 0px;
         margin-right: 0px;
     }
-    
-    
+
+
     .info-card {
         position: relative;
         display: flex;
@@ -297,25 +314,28 @@
         border-radius: 10px;
         background-color: #d7d7d76c;
     }
+
     .emoji-2 .info-card {
         margin-top: 0px;
         margin-left: 0px;
         display: flex;
         flex-direction: row;
     }
+
     .emoji-3 .info-card {
         margin-top: 0px;
         margin-left: 0px;
         display: flex;
         flex-direction: row;
     }
+
     .emoji-4 .info-card {
         margin-top: 0px;
         margin-left: 0px;
         display: flex;
         flex-direction: row;
     }
-    
+
     .blob {
         position: absolute;
         z-index: 9;
@@ -332,8 +352,9 @@
         animation-delay: 0;
         box-shadow: inset 0 0 50px 0px rgb(220, 91, 249);
     }
-    
+
 }
+
 /*_____TABLET DEVICE_____*/
 @media screen and (width > 767px) and (width < 1023px) {}
 
