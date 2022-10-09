@@ -1,7 +1,7 @@
 /*////////////////////////vv USER JOURNEY vv////////////////////////*/
 .body-1 {
     width: 100vw;
-    height: 250vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     overflow: hidden;
     position: relative;
+    margin-bottom: 100px;
 }
 .body-1 h2{
     position: absolute;
@@ -59,6 +60,23 @@
     line-height: 22px;
    
 }
+.blob {
+    position: absolute;
+    z-index: 9;
+    margin-top: 120px;
+    margin-left: -60px;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(180deg,
+            rgba(255, 115, 0, 0.42) 31%,
+            #f1c25c 100%);
+    opacity: 70%;
+    mix-blend-mode: color-dodge;
+    animation: blob-animation 5s ease-in-out infinite alternate;
+    animation-delay: 0;
+    box-shadow: inset 0 0 50px 0px rgb(220, 91, 249);
+}
+
 
 /*vv emoji-1 vv*/
 .emoji-1 {
@@ -194,22 +212,6 @@
     margin: 0;
 }
 /*^^ emoji-4 ^^*/
-.blob {
-    position: absolute;
-    z-index: 9;
-    margin-top: 120px;
-    margin-left: -60px;
-    width: 250px;
-    height: 250px;
-    background: linear-gradient(180deg,
-            rgba(255, 115, 0, 0.42) 31%,
-            #f1c25c 100%);
-    opacity: 70%;
-    mix-blend-mode: color-dodge;
-    animation: blob-animation 5s ease-in-out infinite alternate;
-    animation-delay: 0;
-    box-shadow: inset 0 0 50px 0px rgb(220, 91, 249);
-}
 
 @keyframes blob-animation {
     from {
@@ -230,3 +232,112 @@
 }
 
 /*////////////////////////^^USER JOURNEY^^////////////////////////*/
+
+/* __vv__MEDIA QUERIES__vv__*/
+
+/*_____MOBILE DEVICE_____*/
+@media screen and (width < 767px) {
+    .path{
+        display: none;
+    }
+    .body-1 h2{
+        position: relative;
+        z-index: 11;
+    }
+    .emoji-1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .emoji-2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .emoji-3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .emoji-4 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    
+    .info-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 200px;
+        margin-top: 0;
+        margin-left: 0;
+        border-radius: 10px;
+        background-color: #d7d7d76c;
+    }
+    .emoji-2 .info-card {
+        margin-top: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    .emoji-3 .info-card {
+        margin-top: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    .emoji-4 .info-card {
+        margin-top: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .blob {
+        position: absolute;
+        z-index: 9;
+        margin-top: -150px;
+        margin-left: 0;
+        width: 250px;
+        height: 250px;
+        background: linear-gradient(180deg,
+                rgba(255, 115, 0, 0.42) 31%,
+                #f1c25c 100%);
+        opacity: 70%;
+        mix-blend-mode: color-dodge;
+        animation: blob-animation 5s ease-in-out infinite alternate;
+        animation-delay: 0;
+        box-shadow: inset 0 0 50px 0px rgb(220, 91, 249);
+    }
+    
+}
+/*_____TABLET DEVICE_____*/
+@media screen and (width > 767px) and (width < 1023px) {}
+
+/*_____DESKTOP DEVICE_____*/
+@media screen and (width > 1900px) {}
+
+/* __^^__MEDIA QUERIES__^^__*/

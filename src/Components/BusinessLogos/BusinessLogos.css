@@ -67,3 +67,17 @@ hr.solid {
         transform: translateX(calc(-100% - var(--gap)));
     }
 }
+
+/* __vv__MEDIA QUERIES__vv__*/
+
+/*_____MOBILE DEVICE_____*/
+@media screen and (width < 767px) {
+ 
+}
+/*_____TABLET DEVICE_____*/
+@media screen and (width > 767px) and (width < 1023px) {}
+
+/*_____DESKTOP DEVICE_____*/
+@media screen and (width > 1900px) {}
+
+/* __^^__MEDIA QUERIES__^^__*/
