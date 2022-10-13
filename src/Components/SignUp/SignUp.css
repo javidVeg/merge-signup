@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
 }
-input{
+.form-container input{
     height: 40px;
     width: 250px;
     margin-bottom: 10px;

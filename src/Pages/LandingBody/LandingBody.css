@@ -10,16 +10,8 @@
     position: relative;
 
 }
-.button-1{
-    background-color: rgb(81, 24, 205);
-    color: white;
-    font-size: medium;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-top: 5px;
-    width: 125px;
-    height: 40px;
-}
+
+
 
 /*TEXT*/
 .text-container {
@@ -55,16 +47,69 @@
     font-size: x-large;
 }
 
-.email-enter {
+.email-wrapper {
     margin-top: 25px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
     animation-name: appear;
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-direction: alternate;
     animation-delay: .1s;
+}
 
+.form-container-2 {
+    width: 100%;
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.email-wrapper input {
+    display: block;
+    box-sizing: border-box;
+    height: 50px;
+    width: 200px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid rgb(54, 54, 54);
+    padding: .5rem 1.2rem;
+    background-color: transparent;
+
+}
+
+.email-wrapper input:focus {
+    outline: none;
+    border: 1.5px solid rgb(133, 7, 252);
+}
+
+.email-wrapper button {
+    background-color: rgb(81, 24, 205);
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0px;
+    width: 150px;
+    height: 50px;
+}
+.email-wrapper button:hover {
+    background-color: rgb(35, 2, 107);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    
 }
 
 /*^^TEXT^^*/
@@ -97,15 +142,6 @@
 
 .logo-carousel {
     margin-top: 100px;
-}
-
-.form-container-2 {
-    width: 100%;
-    height: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -154,11 +190,13 @@
         margin-left: 0px;
 
     }
+
     .provides {
         font-weight: 800;
         margin: 30px;
         animation-duration: .5s;
     }
+
     .email-enter {
         margin-top: 25px;
         width: 100%;
@@ -172,6 +210,7 @@
         animation-direction: alternate;
         animation-delay: .1s;
     }
+
     .form-container-2 {
         width: 80%;
         height: 10%;
@@ -180,7 +219,7 @@
         justify-content: center;
         align-items: center;
     }
-    
+
 
 
 
@@ -194,7 +233,3 @@
 @media screen and (width > 1900px) {}
 
 /* __^^__MEDIA QUERIES__^^__*/
-
-/*This is a test commit*/
-
-/*This is a test commit*/
