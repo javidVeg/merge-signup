@@ -83,7 +83,6 @@ const philoRef = useRef()
             end: "+=" + height + "%",
             scrub: true,
             pin: philoRef.current,
-            pinSpacing: false,
             id: "pinning",
             markers: true
         })
@@ -164,7 +163,9 @@ const philoRef = useRef()
                         <img ref={imgRef} src={img2} alt="random" width="500" height="300" />
                     </div>
                 </div>
+            
             </section>
+            <section class="vh"></section>
 
             {/* <div className="scroll-section-wrapper">
                 <div className="left-scroll-section-text">

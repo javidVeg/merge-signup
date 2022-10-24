@@ -43,7 +43,6 @@ const ScrollSection = () => {
             end: "+=" + height + "%",
             scrub: true,
             pin: philoRef.current,
-            pinSpacing: false,
             id: "pinning",
             markers: true
         })

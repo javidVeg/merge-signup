@@ -1,22 +1,19 @@
-.scroll-container{
+.scroll-container {
     display: flex;
     flex-direction: row;
     background-color: rgb(193, 166, 219);
 
 
 }
-.scroll-container-two{
-  
 
-
-}
-.section-right{
+.section-right {
     background-color: aquamarine;
     width: 50%;
     display: grid;
     place-content: center;
 
 }
+
 .vid {
     margin-top: 20px;
     height: 700px;
@@ -26,27 +23,85 @@
     /* overflow: hidden; */
     /* position: absolute; */
 }
-.section-left{
+
+.section-left {
     width: 50%;
     height: 100vh;
     background-color: rgb(86, 86, 247);
 }
 
 .left-text-1 {
-color: white;
-font-size: 5em;
-text-align: center;
-line-height: 1.3em;
-padding: 60px;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 60px;
 
 }
+
 .left-text-2 {
-color: white;
-font-size: 8em;
-text-align: center;
-line-height: 1.3em;
-padding: 0px;
-margin-top: -50px;
-
-
+    color: white;
+    font-size: 8em;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 0px;
+    margin-top: -50px;
 }
+
+/* --------------------------------------------------------------- */
+.philosophie {
+    position: relative;
+  }
+  
+  /* .indicators {
+    left: 2rem;
+    top: 0;
+    margin: 10vh 0;
+    height: 80vh;
+    width: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+  }
+  
+  .indicator {
+    width: 100%;
+    background-color: #adadad;
+    flex-grow: 1;
+    margin: 2px 0;
+  } */
+  
+  .philosophie .point {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    outline: 1px solid red
+  }
+  
+  .philosophie .wrapper {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .point article {
+    flex-basis: 60%;
+    margin-right: auto;
+  }
+  
+  .point img {
+    flex-basis: 25%;
+    max-width: 25vw;
+    height: auto;
+  }
+  .vh {
+    height: 100vh;
+    background-color: rgba(255,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    font-weight: bold;
+  }

@@ -32,7 +32,7 @@
 /*--------------------------------------------------------------------------------------*/
 
 .philosophie {
-    position: relataive;
+    position: relative;
   }
   
   /* .indicators {
@@ -77,4 +77,13 @@
     flex-basis: 25%;
     max-width: 25vw;
     height: auto;
+  }
+  .vh {
+    height: 100vh;
+    background-color: rgba(255,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    font-weight: bold;
   }
