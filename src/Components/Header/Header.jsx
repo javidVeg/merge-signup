@@ -21,7 +21,7 @@ const Header = () => {
         <div className="middle" id={isOpen ? "hidden" : ""} >
           {/* ~a~ TAG IN CSS WORKS ON ~Link~ */}
           
-          <Link onClick={() => setIsOpen(!isOpen)} to="/demo">DEMO</Link>
+          <Link onClick={() => setIsOpen(!isOpen)} to="/videoscroll">DEMO</Link>
           <Link onClick={() => setIsOpen(!isOpen)} to="/products"><span>PRODUCTS </span><svg width="15" height="12" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(180)"><path d="M9.61914 5.42871L5.77152 1.53977L1.9239 5.42871" stroke="currentColor" stroke-width="1.92381" stroke-linecap="round" stroke-linejoin="round"></path></svg></Link>
           <Link onClick={() => setIsOpen(!isOpen)} to="/pricing">PRICING </Link>
           <Link onClick={() => setIsOpen(!isOpen)} to="/resources">RESOURCES</Link>

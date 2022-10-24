@@ -1,0 +1,52 @@
+.scroll-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(193, 166, 219);
+
+
+}
+.scroll-container-two{
+  
+
+
+}
+.section-right{
+    background-color: aquamarine;
+    width: 50%;
+    display: grid;
+    place-content: center;
+
+}
+.vid {
+    margin-top: 20px;
+    height: 700px;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    /* position: absolute; */
+}
+.section-left{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(86, 86, 247);
+}
+
+.left-text-1 {
+color: white;
+font-size: 5em;
+text-align: center;
+line-height: 1.3em;
+padding: 60px;
+
+}
+.left-text-2 {
+color: white;
+font-size: 8em;
+text-align: center;
+line-height: 1.3em;
+padding: 0px;
+margin-top: -50px;
+
+
+}
