@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/merge-signup/static/css/main.31744c1b.css",
-    "main.js": "/merge-signup/static/js/main.370224e4.js",
+    "main.css": "/merge-signup/static/css/main.4f37484a.css",
+    "main.js": "/merge-signup/static/js/main.bd1821ee.js",
     "static/media/merge-imac.png": "/merge-signup/static/media/merge-imac.b22dde7c509e30ff5746.png",
+    "static/media/scrollVideo2.mp4": "/merge-signup/static/media/scrollVideo2.7d22b11b618768380e6d.mp4",
+    "static/media/img_2.png": "/merge-signup/static/media/img_2.80705221085c763e237d.png",
+    "static/media/img_1.png": "/merge-signup/static/media/img_1.08690938695c908a879b.png",
     "static/media/path-2.png": "/merge-signup/static/media/path-2.ae0594bb64440870a55f.png",
     "static/media/small-business-1.jpeg": "/merge-signup/static/media/small-business-1.56cc4692369a66f9ca78.jpeg",
+    "static/media/img_3.png": "/merge-signup/static/media/img_3.91e2031b21ad698bec29.png",
+    "static/media/img_4.png": "/merge-signup/static/media/img_4.0a3d505265b23dea3638.png",
     "static/media/bank4.png": "/merge-signup/static/media/bank4.929c36b9e89f00b2e410.png",
     "static/media/merge_full_logo.png": "/merge-signup/static/media/merge_full_logo.a7a6f88717bb53829972.png",
     "static/media/error-icon.png": "/merge-signup/static/media/error-icon.1bb17713932dcbf92b7a.png",
@@ -19,11 +24,11 @@
     "static/media/bank5.png": "/merge-signup/static/media/bank5.9963e7ec747544cbd1b4.png",
     "static/media/arrow.svg": "/merge-signup/static/media/arrow.600ee40a8482d49a28d3a8b68a87282b.svg",
     "index.html": "/merge-signup/index.html",
-    "main.31744c1b.css.map": "/merge-signup/static/css/main.31744c1b.css.map",
-    "main.370224e4.js.map": "/merge-signup/static/js/main.370224e4.js.map"
+    "main.4f37484a.css.map": "/merge-signup/static/css/main.4f37484a.css.map",
+    "main.bd1821ee.js.map": "/merge-signup/static/js/main.bd1821ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.31744c1b.css",
-    "static/js/main.370224e4.js"
+    "static/css/main.4f37484a.css",
+    "static/js/main.bd1821ee.js"
   ]
 }
