@@ -9,9 +9,19 @@
 .section-right {
   /* background-color: aquamarine; */
   width: 50%;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
+
+.section-right p{
+  text-align: center;
+  font-weight: 500;
+  font-size: large;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
 .vid {
@@ -19,9 +29,16 @@
   height: 700px;
   width: 70%;
   object-fit: cover;
-  border-radius: 10px;
+  
   /* overflow: hidden; */
   /* position: absolute; */
+}
+
+.videoGif{
+  border-radius: 10px;
+  border: solid #D9D9D9 1px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+  width: 90%;
 }
 
 .section-left {
@@ -44,7 +61,7 @@
   text-align: center;
   line-height: 1.3em;
   padding: 0px;
-  margin-top: -50px;
+  margin-top: -100px;
   background: linear-gradient(to right, rgb(244, 88, 132), rgb(140, 93, 242));
   background-size: 100% auto;
   color: #000;
@@ -56,7 +73,9 @@
 
 /* --------------------------------------------------------------- */
 .philosophie {
+  height: auto;
   position: relative;
+  display: flex;
 }
 
 .philosophie .point {
@@ -64,6 +83,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  position: relative;
   /* overflow: scroll */
   /* padding: 1rem; */
 }
@@ -108,7 +128,7 @@
 }
 
 .tabs {
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
@@ -152,12 +172,12 @@
   }
 
   .vid {
-    width: 100%;
+    display: none;
 
   }
 
   .section-right {
-    /* background-color: aquamarine; */
+
     width: 90%;
   }
 
@@ -167,19 +187,51 @@
     text-align: left;
     /* line-height: 1.3em; */
     padding: 0;
+    
   
   }
 
   .left-text-2 {
+   
+    width: 100vw;
+    margin-top: 0;
+    margin: 0;
     
   }
 
   .section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     height: 100vh;
     /* background-color: rgb(86, 86, 247); */
   }
-
+  .philosophie {
+    height: 420vh;
+    flex-direction: column;
+  }
+  .philosophie .point {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img_ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+  }
+  .point h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    color: rgb(84, 84, 84);
+  }
 
 }
 
