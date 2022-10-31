@@ -27,7 +27,7 @@ function App() {
         <Route path='*' element={<ErrorPage/>}/>
       {/* <Pitch/> */}
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
       <ToastContainer
         position="top-right"
         autoClose={5000}
