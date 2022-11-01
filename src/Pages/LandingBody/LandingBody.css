@@ -1,4 +1,7 @@
-.landing-body {}
+.landing-body {
+   position: relative;
+   top: 3rem;
+}
 
 .hero {
     width: 100%;
@@ -16,14 +19,17 @@
 /*TEXT*/
 .text-container {
     width: 50%;
-    margin-top: 5%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
 }
 
 .text-container h1 {
     font-size: 5em;
-    text-align: start;
+    text-align: center;
     margin: 50px;
     margin-top: 10px;
 
@@ -34,8 +40,8 @@
     color: rgb(76, 76, 76);
     font-size: 1em;
     font-weight: 500;
-    margin-left: 50px;
-    animation-name: appear;
+   
+    /* animation-name: appear; */
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-direction: alternate;
@@ -49,13 +55,14 @@
 
 .email-wrapper {
     margin-top: 25px;
+    
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     
-    animation-name: appear;
+    /* animation-name: appear; */
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-direction: alternate;
@@ -145,7 +152,7 @@
 }
 
 
-@keyframes appear {
+/* @keyframes appear {
     0% {
         margin-top: -50%;
         opacity: 0;
@@ -156,7 +163,7 @@
         margin-top: 0%;
         opacity: 1;
     }
-}
+} */
 
 /* __vv__MEDIA QUERIES__vv__*/
 
@@ -204,7 +211,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        animation-name: appear;
+        /* animation-name: appear; */
         animation-duration: 1s;
         animation-iteration-count: 1;
         animation-direction: alternate;
