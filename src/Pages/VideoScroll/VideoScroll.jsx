@@ -19,6 +19,7 @@ const VideoScroll = () => {
   const IntroVideoRef = useRef(null);
   const videoRef = useRef(null);
   const enjoyRef = useRef(null)
+  
 
 
   useEffect(() => {
@@ -140,7 +141,7 @@ const VideoScroll = () => {
 
   const handleSec1 = (e) => {
     e.preventDefault()
-    gsap.to(window, { duration: 1, scrollTo: distance });
+    gsap.to(window, { duration: 1, scrollTo: 5000 });
   }
 
   const handleSec2 = (e) => {
@@ -157,6 +158,8 @@ const VideoScroll = () => {
     e.preventDefault()
     gsap.to(window, { duration: 1, scrollTo: 11000 });
   }
+
+  
 
   return (
     <>

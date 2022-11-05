@@ -4,7 +4,7 @@
   animation: gradient 4s ease infinite; */
   /* height: 200%; */
   width: 100vw;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @keyframes gradient {

@@ -24,7 +24,8 @@ const Header = () => {
           {/* ~a~ TAG IN CSS WORKS ON ~Link~ */}
 
           <Link onClick={() => setIsOpen(!isOpen)} to="/videoscroll">DEMO</Link>
-          <Link onClick={() => setIsOpen(!isOpen)} to="/products">PRODUCTS </Link>
+          <Link onClick={() => setIsOpen(!isOpen)} to="/newGSAPtest">GSAP DEMO</Link>
+          {/* <Link onClick={() => setIsOpen(!isOpen)} to="/products">PRODUCTS </Link> */}
           <Link onClick={() => setIsOpen(!isOpen)} to="/pricing">PRICING </Link>
           <Link onClick={() => setIsOpen(!isOpen)} to="/resources">RESOURCES</Link>
         </div>
