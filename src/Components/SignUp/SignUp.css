@@ -15,11 +15,12 @@
     background-color: transparent;
 }
 button{
-    background-color: rgb(81, 24, 205);
+    background-color: rgba(81, 24, 205, 0.752);
     color: white;
     font-size: large;
     border-radius: 5px;
     margin: 10px;
-    width: 125px;
+    width: 250px;
     height: 40px;
+    border: none;
 }

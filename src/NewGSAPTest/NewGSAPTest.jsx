@@ -31,6 +31,7 @@ const NewGSAPTest = () => {
 
         sections.forEach((elem, i) => {
             
+           
 
             console.log(elem, images[i], i)
             
@@ -40,23 +41,25 @@ const NewGSAPTest = () => {
 
                 scrollTrigger: {
                     trigger: elem,
-                   
                     start: "bottom+=-100px center",
                     end: "bottom bottom",
                     scrub: 1,
-                    markers: true
+                    markers: true,
+                    // id: "sec" + [i]
                 }
             })
+            
         })
-
+//! THIS PINS THE IMG CONTAINER
         ScrollTrigger.create({
             trigger: ".right-section",
             pin: ".right-section",
             start: "top+=-60px top",
-            // endTrigger: "#otherID",
-            end: "bottom bottom",
+            
+            end: "bottom+=-500",
             scrub: 1,
             markers: true,
+            id: "pin"
             // onToggle: self => console.log("toggled, isActive:", self.isActive),
             // onUpdate: self => {
             //    console.log("progress:", self.progress.toFixed(3), "direction:", self.direction, "velocity", self.getVelocity());
@@ -126,8 +129,7 @@ const NewGSAPTest = () => {
                     </section>
                 </div>
             </div>
-            {/* <div className="wrapper-a"></div> */}
-            <div className="spacing"></div>
+            
         </div>
     )
 }

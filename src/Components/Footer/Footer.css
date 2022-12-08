@@ -16,7 +16,7 @@ ul {
     flex-direction: column;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     height: auto;
     background-color: #d7d7d76c;
     color: rgb(0, 0, 0);

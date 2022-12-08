@@ -8,9 +8,6 @@ const Register = () => {
     return (
         <div>
             <div className="register-page">
-                <div className="merge-logo">
-                    <img src={mergeLogo} alt="mergeLogo" />
-                </div>
                 <div className="register-wrapper">
                     <div className="register-container">
                         <h1 className='pre-register'>Pre Register.</h1>

@@ -18,6 +18,7 @@ const VideoScroll = () => {
 
   const IntroVideoRef = useRef(null);
   const videoRef = useRef(null);
+  console.log(videoRef)
   const enjoyRef = useRef(null)
   
 

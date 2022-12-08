@@ -39,6 +39,7 @@ nav{
 }
 .right-section{
     width: 50%;
+    height: auto;
     position: relative;
     display: flex;
     flex-direction: row;
