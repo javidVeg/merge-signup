@@ -31,7 +31,7 @@ const Header = () => {
         </div>
         <div className="right-side" >
           <button className="register" onClick={() => navigate('/register')}>REGISTER</button>
-          <button className="sign-up" onClick={() => navigate('/home')}>SIGN IN</button>
+          {/* <button className="sign-up" onClick={() => navigate('/home')}>SIGN IN</button> */}
           {/* <button className="sign-up">SIGN IN</button> */}
           <div className="hamburger-menu" id="hamburger">
             <HiMenuAlt3 size={50} onClick={() => setIsOpen(!isOpen)} />

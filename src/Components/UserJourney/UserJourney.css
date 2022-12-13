@@ -9,19 +9,22 @@
     flex-wrap: wrap;
     overflow: hidden;
     position: relative;
+    background-color: var(--color-coral);
+    border-radius: 50px;
   
 }
 
 .body-1 h2 {
     position: absolute;
     z-index: 11;
+    
 }
 
 
 
 .icon-inner {
     position: relative;
-    background-color: #918ffc5b;
+    background-color: white;
     margin-top: 5px;
     margin-left: 5px;
     width: 70px;
@@ -37,6 +40,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
+    
 }
 
 .path img {
@@ -57,12 +61,14 @@
 .info-text h3 {
     font-weight: 800;
     font-size: x-large;
+    color: white;
 }
 
 .info-text p {
     font-weight: 400;
     margin-top: -10px;
     line-height: 22px;
+    color: white;
 
 }
 
@@ -101,13 +107,13 @@
     margin-top: 190px;
     margin-left: 400px;
     border-radius: 10px;
-    background-color: #d7d7d76c;
+    background-color: var(--color-space);
 }
 
 .info-card .icon {
     position: absolute;
     flex-direction: row-reverse;
-    background-color: #ffffff;
+    background-color: var(--color-coral);
     margin-top: -50px;
     margin-right: -20px;
     width: 80px;

@@ -6,11 +6,12 @@ li {
 
 ul {
     padding-inline-start: 0;
-    width: 200px;
+    width: 80%;
    
 }
 
 .footer {
+    margin-top: 100px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -18,38 +19,33 @@ ul {
     bottom: 0;
     width: 100vw;
     height: auto;
-    background-color: #d7d7d76c;
+    background-color: #BFC0C0;
     color: rgb(0, 0, 0);
     text-align: center;
-    box-shadow: 0px 0px 25px -15px black;
+    /* box-shadow: 0px 0px 25px -15px black; */
 }
 
 .upper-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  
-    gap: 5%;
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr 1fr;
+    gap: 1rem;
     height: 100%;
     width: 100%;
-    margin-top: 30px;
-    
-}
-
-.foot-sections {
-
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
+    margin-top: 30px;  
+    margin-bottom: 30px;
 }
 
 .foot-section-1 {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
 }
 
 .foot-section-1 h3 {
     text-align: start;
-    line-height: 50px;
+    line-height: 30px;
     color: rgb(75, 75, 75);
 }
 
@@ -71,9 +67,8 @@ ul {
 }
 
 .foot-section-2 {
-    width: 10%;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .foot-section-2 h4 {
@@ -81,7 +76,7 @@ ul {
 }
 
 .foot-section-2 li{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .lower-container{
@@ -97,21 +92,48 @@ ul {
 /* __vv__MEDIA QUERIES__vv__*/
 
 /*_____MOBILE DEVICE_____*/
-@media screen and (width < 767px) {
+@media screen and (width < 349px) {
     .upper-container {
-        flex-wrap: nowrap;
-        flex-direction: column;  
+        display: grid;
+        grid-template-columns:  1fr;
+        gap:0;
     }
+}
+@media screen and (width > 349px) and (width < 767px) {
+    
     .lower-container p{
         gap: 50px;
         font-size: .7em;
        
     }
+      .upper-container {
+        grid-template-columns:  1fr 1fr ;
+        gap:0;
+       
+    }
+    .foot-section-1 h3 {
+        text-align: start;
+        line-height: 25px;
+        color: rgb(75, 75, 75);
+        margin-bottom: 0;
+    }
+    .foot-section-1{
+        padding: 20px;
+    }
+   
 
 
 }
 /*_____TABLET DEVICE_____*/
-@media screen and (width > 767px) and (width < 1023px) {}
+@media screen and (width > 767px) and (width < 1023px) {
+    .foot-section-1 h3 {
+        text-align: start;
+        line-height: 25px;
+        color: rgb(75, 75, 75);
+        margin-bottom: 0;
+    }
+  
+}
 
 /*_____DESKTOP DEVICE_____*/
 @media screen and (width > 1900px) {}

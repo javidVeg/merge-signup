@@ -11,6 +11,7 @@ import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { db } from "../../firebase"
 import { collection, getDocs, addDoc } from "firebase/firestore"
+import NewGSAPTest from '../../NewGSAPTest/NewGSAPTest'
 
 
 
@@ -94,6 +95,9 @@ const LandingBody = () => {
           <img src={smallB1} alt="hero-img" />
         </div>
       </section>
+      <div className="gsap-section">
+        <NewGSAPTest/>
+      </div>
       <div className="logo-carousel">
         <BusinessLogos /></div>
       <div className="user-journey">

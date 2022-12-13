@@ -6,28 +6,37 @@ nav{
 .box{
 
 }
-.tabs {
+.tab {
    
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
     z-index: 10;
-    background-color: azure;
+   
 
 }
 
-.tabs a {
-    color: black;
-    font-size: 1rem;
+.tab a, h3 {
+    color: rgb(58, 58, 58);
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
     cursor: pointer;
     padding: 20px;
     margin: 0px;
     z-index: 1;
     text-decoration: none;
 }
-.wrapper-a{
+.tab a:hover {
+    color: rgba(0, 0, 0, 0.995);
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.50);
+}
+
+.wrapper-a {
     width: 100vw;
+    max-height: 450vh;
+    overflow: hidden;
+    
 }
 .content-container{
     display: flex;
@@ -36,14 +45,18 @@ nav{
 }
 .left-section{
     width: 50%;
+    
 }
 .right-section{
     width: 50%;
-    height: auto;
-    position: relative;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* overflow-y: hidden; */
+    /* min-height: 100%; */
+    /* transform: translate(0px, 0px)!important; */
+  
     
 }
 .imgs{
@@ -66,25 +79,36 @@ nav{
 .sections_{
     width: 100%;
     height: 100vh;
-    background-color: rgb(191, 191, 191);
+    /* background-color: rgb(245, 2, 2); */
     position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 
 }
 .sections_ h2{
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
     padding: 100px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.sections_ p{
+    font-size: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+    padding: 100px;
+    padding-top: 0;
     margin: 0;
 }
 
 
-.sections_:nth-child(2){
-    background-color: red;
+/* .sections_:nth-child(2){
+    background-color: rgb(255, 0, 212);
 }
 .sections_:nth-child(3){
     background-color: rgb(0, 255, 34);
 }
 .sections_:nth-child(4){
     background-color: rgb(72, 0, 255);
-}
-.sections_:nth-child(5){
-    background-color: rgb(255, 0, 191);
-}
+} */
