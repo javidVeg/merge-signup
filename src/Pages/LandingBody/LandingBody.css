@@ -8,7 +8,7 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     overflow: hidden;
     position: relative;
 
@@ -19,39 +19,16 @@
 /*TEXT*/
 .text-container {
     width: 50%;
-    margin-top: 1rem;
+    margin-bottom: 20%;
+    margin-left: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 
 }
 
-.text-container h1 {
-    font-size: 5em;
-    text-align: center;
-    margin: 50px;
-    margin-top: 10px;
-
-    margin-bottom: 40px;
-}
-
-.provides {
-    color: rgb(76, 76, 76);
-    font-size: 1em;
-    font-weight: 500;
-   
-    /* animation-name: appear; */
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-
-}
-
-.provides span {
-    margin-right: 5px;
-    font-size: x-large;
-}
 
 .email-wrapper {
     margin-top: 25px;
@@ -124,7 +101,7 @@
 /*IMAGE*/
 .hero-img {
     width: 50%;
-    margin-top: 5%;
+   
     margin-bottom: 5%;
     display: flex;
     flex-direction: column;
@@ -135,12 +112,11 @@
 }
 
 .hero-img img {
-    width: 100%;
+    width: 150%;
 
 
     margin-left: 8%;
-    border-radius: 12px;
-    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.5);
+
 
 }
 

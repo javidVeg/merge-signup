@@ -5,13 +5,14 @@ import mergeImac from "../../Images/merge-imac.png"
 import "./LandingBody.css"
 import BusinessLogos from '../../Components/BusinessLogos/BusinessLogos'
 import Pitch from '../../Components/Pitch/Pitch'
-import smallB1 from "../../Images/small-business-1.jpeg"
+import smallB1 from "../../Images/merge-imac.png"
 import UserJourney from '../../Components/UserJourney/UserJourney'
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { db } from "../../firebase"
 import { collection, getDocs, addDoc } from "firebase/firestore"
 import NewGSAPTest from '../../NewGSAPTest/NewGSAPTest'
+import PitchAnimation from '../../Components/Animations/PitchAnimation/PitchAnimation'
 
 
 
@@ -75,8 +76,8 @@ const LandingBody = () => {
     <div className='landing-body'>
       <section className="hero">
         <div className="text-container">
-          <h1>Get a refund on your expenses</h1>
-          <p className="provides">
+          <Pitch/>
+          {/* <p className="provides">
             <span>👌</span>  Lorem ip amet consectetur adipisicing sum dolor sit elit. Quasi, natus.
           </p>
           <p className="provides">
@@ -84,7 +85,7 @@ const LandingBody = () => {
           </p>
           <p className="provides">
             <span>👌</span>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quas.
-          </p>
+          </p> */}
           <div className="email-wrapper">
               <form className="form-container-2" >
                 <input name="email" placeholder="Business Email" value={inputData.email} onChange={onChange} required />

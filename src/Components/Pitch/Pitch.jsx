@@ -6,7 +6,13 @@ import PitchAnimation from "../Animations/PitchAnimation/PitchAnimation"
 const Pitch = () => {
   return (
     <div className="pitch-container">
-        <h1>Merge can provide your business with <PitchAnimation/> </h1>
+      <h2>Merge provides</h2><PitchAnimation />
+      <p>Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. In architecto esse aut pariatur?
+        Vitae minima delectus labore enim unde quasi
+        voluptas quae. At dignissimos tempora maxime deleniti!
+        Cum neque quasi culpa reprehenderit adipisci eius nesciunt.
+      </p>
     </div>
   )
 }

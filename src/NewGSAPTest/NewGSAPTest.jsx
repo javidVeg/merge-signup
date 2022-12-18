@@ -63,7 +63,7 @@ const NewGSAPTest = () => {
             start: "top-=120 top",
             end: "bottom-=900 top",
             scrub: 1,
-            markers: true,
+            markers: false,
             id: "pin"
             // onToggle: self => console.log("toggled, isActive:", self.isActive),
             // onUpdate: self => {
@@ -100,13 +100,13 @@ const NewGSAPTest = () => {
 
             <div className="wrapper-a">
                 <nav className="tab">
-                    <a onClick={handleSec1} href="#sec1">Section A</a>
+                    <a onClick={handleSec1} href="#sec1">What is this?</a>
                     <h3>/</h3>
-                    <a onClick={handleSec2} href="#sec2">Section B</a>
+                    <a onClick={handleSec2} href="#sec2">See the Demo</a>
                     <h3>/</h3>
-                    <a onClick={handleSec3} href="#sec3">Section C</a>
+                    <a onClick={handleSec3} href="#sec3">Live the Demo</a>
                     <h3>/</h3>
-                    <a onClick={handleSec4} href="#sec4">Section D</a>
+                    <a onClick={handleSec4} href="#sec4">Be the Demo</a>
                 </nav>
                 <div className="content-container">
                     <section className='left-section'>
