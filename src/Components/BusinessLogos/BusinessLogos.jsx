@@ -14,10 +14,7 @@ import bank9 from "../../Images/citi.png"
 const BusinessLogos = () => {
     return (
         <div>
-            <div className="top-of-carousel">
-                <h4>Giving You The Best, From The Best!</h4>
-                <hr className='solid' />
-            </div>
+      
             <div className='carousel-container'>
                 <div className='logo-box'>
                     <div className="logos"><img src={bank1} alt="hsbc" width="170px" /></div>

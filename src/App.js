@@ -18,7 +18,8 @@ function App() {
   return (
     <div className='App'>
       {/* <SignUp/> */}
-      <Header />
+      <div className='header-main'><Header /></div>
+      
       <Routes>
         <Route path='/' element={<Navigate to ="/home"/>}/>
         <Route path='/merge-signup/' element={<Navigate to ="/home"/>}/>

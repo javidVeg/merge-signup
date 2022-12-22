@@ -9,8 +9,10 @@
     flex-wrap: wrap;
     overflow: hidden;
     position: relative;
-    background-color: var(--color-coral);
+    background-color: rgb(236, 236, 236);
     border-radius: 50px;
+    margin-bottom: 350px;
+    margin-top:  -100px;
   
 }
 
@@ -24,7 +26,7 @@
 
 .icon-inner {
     position: relative;
-    background-color: white;
+    background-color: rgb(209, 209, 209);
     margin-top: 5px;
     margin-left: 5px;
     width: 70px;
@@ -113,7 +115,7 @@
 .info-card .icon {
     position: absolute;
     flex-direction: row-reverse;
-    background-color: var(--color-coral);
+    background-color:  rgb(236, 236, 236);
     margin-top: -50px;
     margin-right: -20px;
     width: 80px;

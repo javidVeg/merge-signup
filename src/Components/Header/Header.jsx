@@ -1,23 +1,58 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import "./Header.css"
 import { Link, useNavigate } from 'react-router-dom';
 import mergeLogo from "../../Images/mergeLogo.png"
 import { HiMenuAlt3 } from 'react-icons/hi'
 import { useState } from 'react';
-import arrow from "../../Images/arrow.svg"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { CSSPlugin } from 'gsap/CSSPlugin'
+
+gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(CSSPlugin);
 
 const Header = () => {
 
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+
+  const headerRef = useRef(null);
+  const logoRef = useRef(null)
+
+
+
+
+
+  useEffect(() => {
+
+    let headerAnim = gsap.to(headerRef.current, { boxShadow: "0px 0px 10px 1px rgba(87, 1, 106, 0.4)" })
+    let logoAnim = gsap.to(logoRef.current, {fontSize: "2.4rem"})
+
+    ScrollTrigger.create({
+      trigger: headerRef.current,
+      start: "top+=50 top",
+      toggleActions: "play none none reverse",
+      animation: headerAnim
+    });
+    ScrollTrigger.create({
+      trigger: logoRef.current,
+      start: "top+=50 top",
+      toggleActions: "play none none reverse",
+      animation: logoAnim
+    });
+    console.log(headerRef)
+
+  }, [])
+
+
 
   const navigate = useNavigate();
   return (
     <div>
-      <header>
+      <header className="headers" ref={headerRef}>
         <div className="left-side-logo"  >
-          <a href="/home" className="home-logo">
+          <a  href="/home" className="home-logo">
             <img src={mergeLogo} alt="merge-logo" />
-            <h3>MERGE</h3>
+            <h3 ref={logoRef}>MERGE</h3>
           </a>
         </div>
         <div className="middle" id={isOpen ? "hidden" : ""} >

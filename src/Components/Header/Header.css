@@ -1,15 +1,18 @@
 /*HEADER VARIABLES*/
-header {
+.headers {
     width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: sticky;
-    background-color: #f0fdfd;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.356);
     /*vvv PREVENTS OTHER ELEMENTS FROM BEING ON TOP vvv*/
-    z-index: 10;
+    z-index: 20000;
+    backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
-header a {
+
+.headers a {
     text-decoration: none;
     color: black;
     display: flex;
@@ -34,6 +37,8 @@ header a {
     margin-left: 10px; 
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
+    padding-left: 10px;
     
 }
 .left-side-logo img{
@@ -78,7 +83,7 @@ header a {
 
 .right-side button{
     
-    font-size: medium;
+    font-size: 15px;
     border-radius: 5px;
     border: none;
     font-weight: 500;
@@ -86,6 +91,7 @@ header a {
     width: 6.5rem;
     height: 2.5rem;
     box-shadow: 0px .5px 3px 0px rgba(0, 0, 0, 0.5);
+    margin-right: 45px;
 }
 
 /* .right-side button:hover{
@@ -102,9 +108,10 @@ header a {
 }
 
 .register{
-    background-color: var(--color-coral);
+    background-color: black;
     color: white;
-    margin-right: 20px;
+    
+    
 
 }
 /*__vv__MOBILE MENU__vv__*/

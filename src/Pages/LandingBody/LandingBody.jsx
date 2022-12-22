@@ -76,31 +76,24 @@ const LandingBody = () => {
     <div className='landing-body'>
       <section className="hero">
         <div className="text-container">
-          <Pitch/>
-          {/* <p className="provides">
-            <span>👌</span>  Lorem ip amet consectetur adipisicing sum dolor sit elit. Quasi, natus.
-          </p>
-          <p className="provides">
-            <span>👌</span>  Lorem consectetur, adipisicing elit ipsum dolor sit amet  Beatae, nobis.
-          </p>
-          <p className="provides">
-            <span>👌</span>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quas.
-          </p> */}
+          <Pitch />
           <div className="email-wrapper">
-              <form className="form-container-2" >
-                <input name="email" placeholder="Business Email" value={inputData.email} onChange={onChange} required />
-                <button onClick={(e) => handleSubmit(e)}>Join Merge</button></form>
+            <form className="form-container-2" >
+              <input name="email" placeholder="Business Email" value={inputData.email} onChange={onChange} required />
+              <button onClick={(e) => handleSubmit(e)}>Join Merge</button></form>
           </div>
         </div>
         <div className="hero-img">
           <img src={smallB1} alt="hero-img" />
         </div>
       </section>
-      <div className="gsap-section">
-        <NewGSAPTest/>
-      </div>
       <div className="logo-carousel">
-        <BusinessLogos /></div>
+        <BusinessLogos />
+      </div>
+      <div className="gsap-section">
+        <NewGSAPTest />
+      </div>
+
       <div className="user-journey">
         <UserJourney />
       </div>

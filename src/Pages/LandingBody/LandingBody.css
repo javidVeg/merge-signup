@@ -1,6 +1,6 @@
 .landing-body {
-   position: relative;
-   top: 3rem;
+    position: relative;
+    top: 3rem;
 }
 
 .hero {
@@ -12,6 +12,7 @@
     overflow: hidden;
     position: relative;
 
+
 }
 
 
@@ -20,6 +21,7 @@
 .text-container {
     width: 50%;
     margin-bottom: 20%;
+    margin-top: 15%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
@@ -32,13 +34,13 @@
 
 .email-wrapper {
     margin-top: 25px;
-    
+
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
     /* animation-name: appear; */
     animation-duration: 2s;
     animation-iteration-count: 1;
@@ -84,6 +86,7 @@
     width: 150px;
     height: 50px;
 }
+
 .email-wrapper button:hover {
     background-color: rgb(35, 2, 107);
     color: rgb(255, 255, 255);
@@ -93,7 +96,7 @@
     transition-timing-function: ease;
     transition-delay: 0s;
 
-    
+
 }
 
 /*^^TEXT^^*/
@@ -101,7 +104,7 @@
 /*IMAGE*/
 .hero-img {
     width: 50%;
-   
+    margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
     flex-direction: column;
@@ -122,14 +125,15 @@
 
 /*^^IMAGE^^*/
 
-.gsap-section{
-    height:auto;
+.gsap-section {
+    height: auto;
     position: relative;
+    margin-top: 100px;
 }
 
 
 .logo-carousel {
-    margin-top: 100px;
+    margin-top: -100px;
 }
 
 

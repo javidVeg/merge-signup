@@ -6,6 +6,10 @@
   
   /* overflow: hidden; */
 }
+/* .header-main{
+	position: fixed;
+	z-index: 10000;
+} */
 
 @keyframes gradient {
 	0% {
